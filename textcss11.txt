@@ -1,0 +1,17 @@
+<html>
+
+<head>
+    <title>CSS Program</title>
+</head>
+
+<body>
+    <div style="position:relative;border: 2px solid green;font-size: 40px;padding: 50px;">
+        The div element has position:
+        relative;
+        <div style="position: absolute; border: green 2px solid;font-size: 30px;margin-left: 50%;">
+            The div elements has position:
+            absolute;</div>
+    </div>
+</body>
+
+</html>

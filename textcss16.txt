@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>CSS Program</title>
+        <style>
+            .second
+            {
+                background-image: url(/back.jpg);
+                padding: 10px;
+                opacity: 80%;
+                color:ghostwhite;
+            }
+            .first
+            {
+                background:url(/rm255-sasi-06_1.jpg);
+                padding: 10px;
+            }
+        </style>
+     </head>
+     <body>
+         <div class="first">
+         <div class="second">Hello World! <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat ullam tempora hic quisquam blanditiis dolorem nam, officia quis velit eos ex quae rerum laboriosam necessitatibus esse, eius laborum omnis distinctio.</div>
+    </div>
+     </body>
+     </html>

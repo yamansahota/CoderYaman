@@ -1,0 +1,30 @@
+<html>
+    <body>
+        
+<script>
+ 
+    function isVowel(ch)
+    {
+        var check = 0;
+        switch (ch) {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+        case 'A':
+        case 'E':
+        case 'I':
+        case 'O':
+        case 'U':
+            check = 1;
+        }
+        return check;
+    }
+    document.write("a is " + isVowel('a') + "<br>");
+     
+    document.write("x is " + isVowel('x') + "<br>");
+     
+    </script>
+    </body>
+</html>
