@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(188, 223, 227);
+}
+
+nav {
+    text-align: right;
+    margin-left: 600px;
+}
+
+nav ul {
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.links {
+    color: rgb(239, 245, 245);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px 10px;
+    line-height: 10px;
+    font-size: 27px;
+    width: 90px;
+    font-family: sans-serif;
+    transition: .2s;
+}
+
+nav ul li a {
+    color: rgb(19, 70, 72);
+    text-shadow: 2px 2px 10px white;
+    display: inline-block;
+    padding: 5px 10px;
+    line-height: 20px;
+    font-size: 27px;
+    width: 100px;
+    font-family: sans-serif;
+    transition: .2s;
+}
+
+nav ul li a:hover {
+    text-shadow: 2px 2px 10px rgb(55, 121, 121);
+    font-size: xx-large;
+}
+
+nav ul li a.active {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.938);
+    font-size: xx-large;
+}
+
+nav ul ul {
+    position: absolute;
+    opacity: 0;
+}
+
+nav ul li:hover>ul {
+    top: 90px;
+    opacity: 1;
+    visibility: visible;
+    transition: .2s linear;
+    border-left: 5px solid rgb(27, 81, 81);
+}
+
+nav ul ul li {
+    width: 30px;
+    display: list-item;
+    position: relative;
+    border-top: none;
+}
+
+nav ul ul li a {
+    line-height: 30px;
+}
+
+nav ul ul ul {
+    border-top: none;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -5px;
+}
+
+nav ul ul li a i {
+    margin-left: 5px;
+}
+
+h1 {
+    border-radius: 2px;
+    display: flex;
+    text-align: right;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(25, 139, 141, 0.817);
+    padding: 20px 2px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px black;
+    box-shadow: 0 2px 15px rgba(24, 26, 5, 0.938);
+}
+
+div {
+    text-align: left;
+    margin: 10px;
+    border-radius: 1pc;
+    box-shadow: 2px 2px 15px black;
+}
+
+.dabba {
+    text-align: left;
+    margin: 15px;
+    border-radius: 1pc;
+    box-shadow: 2px 2px 15px black;
+    background-color: azure;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+.html {
+    font-size: xx-large;
+    position: absolute;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0;
+    margin-top: 90px;
+    text-align: left;
+}
+
+.intro {
+    font-size: xx-large;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 260px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    background-image: url(top-view-person-writing-laptop-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.anch {
+    margin-left: 25%;
+    font-size: 50px;
+    padding: 1px;
+    color: rgb(97, 139, 146);
+}
+
+.anch:hover {
+    transition: .2s linear;
+    color: aquamarine;
+    text-shadow: 2px 2px 10px rgb(13, 1, 1);
+}
+
+#down {
+    font-size: 50px;
+    color: darkcyan;
+    text-shadow: 2px 2px 10px rgb(176, 163, 175);
+}
+
+#down:hover {
+    color: aqua;
+    text-shadow: 2px 2px 10px blueviolet;
+}
+
+.about {
+    text-align: center;
+    background-color: rgb(86, 132, 132);
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+hr {
+    width: 20pc;
+    align-items: center;
+
+}
+
+.try {
+    background-color: cadetblue;
+    border-radius: 2pc;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 9px;
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.try:hover
+{
+    border: 2px solid cyan;
+    box-shadow: 2px 2px 15px gray;
+}
+.abo {
+    background-color: rgb(64, 99, 103);
+    color: rgb(255, 255, 254);
+}
+
+.era{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    margin: 20px;
+    margin-top: 9px;
+}
+
+.open{
+    position:relative;
+    text-align: center;
+    color: whitesmoke;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 1100;
+    top: -250;
+}
+.social
+{
+    text-decoration: none;
+    color: azure;
+    margin-left: 20px;
+    font-size: xx-large;
+    margin-bottom: -10px;
+}
+dir{
+    text-align: center;
+}
+.social:hover
+{
+    text-shadow: 2px 2px 15px cyan;
+}
+ol{
+    margin-top: 90px;
+    list-style:decimal-leading-zero;
+}
+li
+{
+    font-size: xx-large;
+    padding: 10px;
+}
+.program{
+    background-color:rgb(40, 121, 137);
+    color:white;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 15px;
+    padding: 10px;
+    font-size: x-large;
+}

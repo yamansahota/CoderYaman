@@ -1,0 +1,32 @@
+body {
+    font-size: 0;
+}
+
+nav {
+    background-color: cadetblue;
+    padding: 8px;
+    text-align: center;
+
+}
+
+a {
+    background-color: rgb(0, 0, 0);
+    background-image: url(/images/pngtree-plant-leaves-watercolor-fine-leaf-pattern-gold-frame-background-image_766878.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifz;
+    padding: 10px 15px;
+    color: black;
+    font-size: x-large;
+    text-decoration: none;
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+    /* margin: 4px; */
+}
+
+a:hover {
+    background-image: url(/images/rm255-sasi-06_1.jpg);
+    color: darkslategray;
+}
