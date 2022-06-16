@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-image: url(/images/Website.jpg);
+            background-position: center;
+            margin-top: 100px;
+        }
+        .div1{
+            opacity: 50%;
+            height: 200px;
+            width: 600px;
+            border: 4px solid black;
+            text-align: center;
+            background-color: rgb(201, 242, 255);
+            margin: 200px;
+            margin-left: 400px;
+        }
+        p{
+            font-size: 30px;
+        }
+    </style>
+    <body>
+        <div class="div1">
+            <p>This is some text that is placed in the transparent box.</p>
+        </div>
+    </body>
+</head>
+</html>

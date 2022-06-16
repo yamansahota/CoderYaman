@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background:url(/images/Website.jpg) ;
+        font-size: xx-large;
+    }
+</style>
+    <body>
+        This page has an image as a background    
+     </body>
+</head>
+</html>

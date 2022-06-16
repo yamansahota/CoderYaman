@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+         p{
+            font-size: 18px;
+        }
+        .c1{
+            opacity: 50%;
+        }
+    </style>
+    <body>
+        <h1>Image Transparency</h1>
+        <p>The opacity property specifies the transparency of an element. The lower the value, the more transparent:<br>
+        Image with 50% opacity:</p>
+        <img src="/images/1.jpg" height="300px" width="200px" class="c1">
+    </body>
+</head>
+</html>

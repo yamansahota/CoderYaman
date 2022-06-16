@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Program</title>
+    <style type="text/css">
+        *{
+            margin: 10px;
+            padding: 0;
+        }
+        .div1{
+            height: 400px;
+            width:400px;
+            background:rgb(224, 49, 19);
+        }
+        .div1:hover{
+            height: 200px;
+            width:200px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Hover the box to see transform effect:</h2>
+    <div class="div1"></div>
+</body>
+</html>

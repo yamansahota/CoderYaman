@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Program 39</title>
+    <style type="text/css">
+        *{
+            margin: 10px;
+            padding: 0;
+        }
+        .div1{
+            height: 400px;
+            width:900px;
+            background:linear-gradient(blue,rgb(128, 62, 0),yellow);
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+</body>
+</html>

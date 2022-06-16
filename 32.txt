@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       img{
+           margin-right: 90px;
+       }
+       h1{
+           font-size: 50px;
+       }
+    </style>
+    <body>
+        <h1>Hello World!</h1>
+        <img src="../images/1.jpg" alt="img" height="500px" width="300px" align="right">
+        <p>Here the background image is only shown the once. In addition it is positioned away from the text. <br>
+        In this example we have also added a margin on the right side, so that the background image will not disturb the text. </p>
+    </body>
+</head>
+</html>

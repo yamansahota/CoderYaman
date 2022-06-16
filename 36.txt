@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Program 32</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            margin:10px;   
+        }
+        .inline{
+            display: inline;
+            color:blue;
+        }
+        .inline-block{
+            display: inline-block;
+            color:blue;
+        }
+        .block{
+            display: block;
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div>
+        <h1>display inline</h1>
+        <div>This is <p class="inline">inline </p>display properties.</div>
+    </div>
+
+    <div>
+        <h1>display inline-block</h1>
+        <div>This is <p class="inline-block">inline-block</p> display properties.</div>
+    </div>
+
+    <div>
+        <h1>display block</h1>
+        <div>This is <p class="block">block </p> display properties.</div>
+    </div>
+</div>
+</body>
+</html>
