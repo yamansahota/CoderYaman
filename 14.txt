@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 10px;
+        }
+      h1{
+          display: inline-block;
+          font-size: 40px;
+          margin: 5px;
+          padding: 5px;
+      }
+      p{ 
+          display: inline;
+          font-size: 23px;
+          color: rgb(76, 55, 55);
+          margin: 10px;
+      }
+      .p1{
+         margin-left: 10px;
+         color: rgb(76, 55, 55);
+         font-size: 20px;
+      }
+      .s1{
+          color: red;
+          
+      }
+    </style>
+    <body>
+        <h1>1,049.61</h1> 
+        <p>USD</p><br>
+        <p class="p1">+18.50(1.75%) today<br>
+                      &nbsp;  After hours 1,048.00 <span class="s1">-1.61(0.15%)</span> </p>
+    </body>
+</head>
+</html>
