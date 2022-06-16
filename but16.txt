@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <style>
+            img:hover
+            {
+                border-left: 5px solid deeppink;
+                border-bottom: 5px solid deeppink;
+                transition: .1s linear;
+                box-shadow: 10px 10px 15px rgb(39, 75, 75);
+            }
+        </style>
+    </head>
+    <body>
+        <img src="top-view-person-writing-laptop-with-copy-space.jpg" width="30%" alt="">
+        <img src="top-view-person-writing-laptop-with-copy-space.jpg" width="30%" alt="">
+        <img src="top-view-person-writing-laptop-with-copy-space.jpg" width="30%" alt="">
+        <img src="top-view-person-writing-laptop-with-copy-space.jpg" width="30%" alt="">
+        <img src="top-view-person-writing-laptop-with-copy-space.jpg" width="30%" alt="">
+        <img src="top-view-person-writing-laptop-with-copy-space.jpg" width="30%" alt="">
+    </body>
+</html>

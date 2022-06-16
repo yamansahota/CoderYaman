@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+    
+    <style>
+        div {
+            position: absolute;
+            display: flex;
+            margin-left: 200px;
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        ol {
+            display:flex;
+            list-style: none;
+            margin-left: 850px;
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        .hello {
+            border: 2px solid black;
+            border-radius: 2pc;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div> <i class="fa fa-cloud"></i> Poseiden
+    </div>
+
+        <ol>
+           <li>Home</li>
+            <li>Product</li>
+            <li>About Us</li>
+            <li>Contacts</li>
+            <li class="hello">Button</li>
+        </ol>
+</body>
+
+</html>

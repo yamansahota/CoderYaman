@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 15px; 
+        }
+        a 
+        {
+            text-decoration: none;
+            background-color: rgb(134, 78, 186);
+            color: goldenrod;
+            font-size: x-large;
+            padding: 10px;
+            border-radius: 4pt;
+            border: 2px solid ;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        a:hover
+        {
+            color: black;
+            background-color: goldenrod;
+            border: 0ch;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">Download</a>
+</body>
+
+</html>

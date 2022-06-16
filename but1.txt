@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+          *
+        {
+            margin: 15px; 
+        }
+        i
+        {
+            color: rgb(255, 0, 0);
+            font-size: 50px;
+        }
+        a{
+            text-decoration: none;
+            background-color: rgb(220, 215, 215);
+            border-radius: 2pc ;
+            padding: 8px;
+            box-shadow: 2px 2px 10px black;
+            color: black;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <a href="#"><i class="fa fa-plus"></i>  Compose</a>
+</body>
+</html>

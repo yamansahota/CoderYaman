@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        div {
+            padding: 8px;
+            border: 5px solid black;
+            padding-bottom: 0;
+        }
+
+        .lo {
+            margin-left: 200px;
+        }
+
+        span {
+            margin: 20px;
+
+        }
+
+        .logo {
+            position: relative;
+            margin-left: 550px;
+        }
+
+        .intor {
+            border: 0ch;
+            font-size: x-large;
+        }
+        header
+        {
+            margin: 50px;
+        }
+        ol
+        {
+            list-style: none;
+            position: relative;
+            display: inline;
+            font-size: x-large;
+            margin-left: 650px;
+        }
+        li
+        {
+            display: inline;
+            margin: 10px;
+            
+        }
+        .last
+        {
+            border: 0;
+            background-color: blanchedalmond;
+            margin-top: 3px;
+            height: 30px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span class="lo">
+            <span>How to Use</span>
+            <span>Career</span>
+            <span>Blogs</span>
+        </span>
+        <span class="logo">
+            <span><i class="fa fa-google"></i></span>
+            <span><i class="fa fa-twitter"></i></span>
+            <span><i class="fa fa-facebook"></i></span>
+            <span><i class="fa fa-instagram"></i></span>
+        </span>
+        <hr>
+        <div class="intor">
+            <header> <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                Poseiden
+
+                <ol>
+                    <li>Home  |</li>
+                    <li>Product  |</li>
+                    <li>About Us  |</li>
+                    <li>Contacts</li>
+                    <li><i class="fa fa-search"></i></li>
+                </ol>
+            </header>
+            <div class="last"></div>
+        </div>
+    </div>
+</body>
+
+</html>
