@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(188, 223, 227);
+    background-color: rgb(171, 135, 78);
 }
 
 nav {
@@ -21,106 +21,104 @@ nav ul {
 nav ul li {
     display: inline-block;
 }
-
 .links {
-    color: rgb(239, 245, 245);
-    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    color: rgb(253 255 217);
+    text-shadow: 2px 2px 10px rgb(0 0 0);
     display: inline-block;
-    padding: 5px 10px;
+    padding: 1px 16px;
     line-height: 10px;
-    font-size: 27px;
+    font-size: 25px;
     width: 80px;
     font-family: sans-serif;
     transition: .2s;
 }
 
 nav ul li a {
-    color: rgb(19, 70, 72);
-    text-shadow: 2px 2px 10px white;
-    display: inline-block;
-    padding: 5px 10px;
-    line-height: 20px;
-    font-size: 27px;
-    width: 100px;
-    font-family: sans-serif;
-    transition: .2s;
+    color: rgb(253, 255, 217);
+    text-shadow: 2px 2px 10px rgb(74, 73, 68);
+    /* display: inline-block; */
+    padding: 10px 1px;
+    line-height: 1px;
+    font-size: 25px;
+    width: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .1s;
 }
 
 nav ul li a:hover {
-    text-shadow: 2px 2px 10px rgb(55, 121, 121);
-    font-size: xx-large;
+    text-shadow: 2px 2px 10px rgb(250, 212, 0);
+    font-size: x-large;
 }
 
 nav ul li a.active {
     color: rgb(255, 255, 255);
     text-shadow: 0 2px 15px rgba(0, 0, 0, 0.938);
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 nav ul ul {
-    position: absolute;
+    position:fixed;
     opacity: 0;
 }
 
 nav ul li:hover>ul {
-    top: 90px;
-    opacity: 1;
-    visibility: visible;
-    transition: .2s linear;
-    border-left: 5px solid rgb(27, 81, 81);
+    top: 80px;
+    opacity: 10;
+    /* visibility: visible; */
+    /* transition: .1s linear; */
+    border: px solid rgb(87, 87, 87);
+    background-color:rgb(151 93 34);
+    width: 115px;
+    border-radius: 3pt;
 }
 
 nav ul ul li {
-    width: 30px;
-    display: list-item;
-    position: relative;
-    border-top: none;
+    width: 3px;
+    display:flow-root;
+    position:relative;
 }
 
 nav ul ul li a {
-    line-height: 30px;
+    line-height: 17px;
 }
 
 nav ul ul ul {
-    border-top: none;
+    border-top: 2px black;
 }
 
 nav ul ul ul li {
     position: relative;
-    top: -5px;
+    top: 10px;
 }
 
 nav ul ul li a i {
-    margin-left: 5px;
+    margin-left: 50px;
 }
 
 h1 {
     border-radius: 2px;
     display: flex;
     text-align: right;
-    font-size: 50px;
+    font-size: 40px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgba(25, 139, 141, 0.817);
-    padding: 20px 2px;
+    background-color:rgb(151 93 34);
+    padding: 13px 20px;
     font-weight: bolder;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 10px black;
-    box-shadow: 0 2px 15px rgba(24, 26, 5, 0.938);
+    color: rgb(255 250 221);
+    text-shadow: 2px 2px 10px #594a4a;
+    box-shadow: 0 2px 15px rgb(224 227 191 / 94%);
+    justify-content: space-evenly;
 }
-
 div {
     text-align: left;
-    margin: 10px;
-    border-radius: 1pc;
-    box-shadow: 2px 2px 15px black;
+    margin: -1px;
+    box-shadow: 2px 2px 15px rgb(136 136 136);
 }
 
 .dabba {
     text-align: left;
-    margin: 15px;
-    border-radius: 1pc;
-    box-shadow: 2px 2px 15px black;
-    background-color: azure;
+    margin: 8px;
+    background-color: rgba(230, 213, 170, 0.911);
 }
 
 img {
@@ -130,10 +128,10 @@ img {
 }
 
 .html {
-    font-size: xx-large;
-    position: absolute;
+    font-size: x-large;
+    position:absolute;
     display: inline-block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-shadow: 0 0;
     margin-top: 90px;
     text-align: left;
@@ -143,10 +141,11 @@ img {
     font-size: xx-large;
     text-align: center;
     background-repeat: no-repeat;
-    padding: 260px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bolder;
-    background-image: url(top-view-person-writing-laptop-with-copy-space.jpg);
+    padding: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:700;
+    color: rgb(19, 11, 2);
+    background-image: url(./images/5c27f143-2cfd-41a6-bf7e-7786069fae17.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -156,29 +155,28 @@ img {
     margin-left: 25%;
     font-size: 50px;
     padding: 1px;
-    color: rgb(97, 139, 146);
+    color: rgb(151 93 34);
 }
 
 .anch:hover {
     transition: .2s linear;
-    color: aquamarine;
-    text-shadow: 2px 2px 10px rgb(13, 1, 1);
+    color: rgb(111, 95, 50);
 }
 
 #down {
     font-size: 50px;
-    color: darkcyan;
-    text-shadow: 2px 2px 10px rgb(176, 163, 175);
+    color:rgb(151 93 34);
+    text-shadow: 0px 2px 5px rgb(206, 180, 94);
 }
 
 #down:hover {
-    color: aqua;
-    text-shadow: 2px 2px 10px blueviolet;
+    color: rgb(88, 87, 87);
+    text-shadow: 0px 2px 5px rgb(186, 186, 190);
 }
 
 .about {
     text-align: center;
-    background-color: rgb(86, 132, 132);
+    background-color: rgb(206,180,94);
     margin: 10px;
     padding: 10px;
     color: whitesmoke;
@@ -193,8 +191,8 @@ hr {
 }
 
 .try {
-    background-color: cadetblue;
-    border-radius: 2pc;
+    background-color: rgb(151 93 34);
+    /* border-radius: 2pc; */
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 9px;
@@ -202,19 +200,21 @@ hr {
     font-size: xx-large;
     font-weight: bolder;
 }
-.try:hover
-{
-    border: 2px solid cyan;
-    box-shadow: 2px 2px 15px gray;
-}
-.abo {
-    background-color: rgb(64, 99, 103);
-    color: rgb(255, 255, 254);
+
+.try:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+    font-size: xx-large;
 }
 
-.era{
+.abo {
+    background-color: rgba(230, 213, 170, 0.911);
+    color: rgb(151 93 34);
+}
+
+.era {
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -226,45 +226,62 @@ form {
     margin-top: 9px;
 }
 
-.open{
-    position:relative;
+.open {
+    position: relative;
     text-align: center;
-    color: whitesmoke;
+    color: rgb(151 93 34);
     font-size: x-large;
     font-weight: bolder;
     margin-left: 1100;
     top: -250;
 }
-.social
-{
+
+.social {
     text-decoration: none;
-    color: azure;
-    margin-left: 20px;
-    font-size: xx-large;
+    color:rgb(151 93 34);
+    margin-left: 50px;
+    font-size: 36;
     margin-bottom: -10px;
 }
-dir{
+
+dir {
     text-align: center;
 }
-.social:hover
-{
-    text-shadow: 2px 2px 15px cyan;
+
+.social:hover {
+    text-shadow: 2px 2px 15px rgb(100, 101, 101);
+    font-size: 40px;
 }
-ol{
+
+ol {
     margin-top: 90px;
-    list-style:decimal-leading-zero;
+    list-style: decimal-leading-zero;
 }
-li
-{
+
+li {
     font-size: xx-large;
     padding: 10px;
 }
-.program{
-    background-color:rgb(40, 121, 137);
-    color:white;
+
+.program {
+    background-color: rgb(40, 121, 137);
+    color: white;
     font-size: xx-large;
     font-weight: bolder;
     margin: 15px;
     padding: 10px;
     font-size: x-large;
+}
+.mysql
+{
+    background-color: rgba(232, 229, 221, 0.852);
+    padding: 70px;
+    color: rgb(72, 47, 21);
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    align-items: center;
+    display: table-cell;
+    margin: 30px;
 }
