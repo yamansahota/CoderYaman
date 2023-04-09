@@ -1,0 +1,143 @@
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<link rel="stylesheet" href="project1.css">
+
+<body>
+    <h1>HumbleCoder.
+
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html"><i class="fa fa-home"></i></a></li>
+                <li>
+                    <a href="#" class="links">Tutorials
+
+                    </a>
+                    <ul>
+                        <!-- <li><a href="javascriptprogram.html" target="blank">MySQL</a></li> -->
+                        <li><a href="HTML_INTRO.html" target="blank">HTML</a></li>
+                        <li><a href="CSS_Program.html" target="blank">CSS</a></li>
+                        <li><a href="javascriptprogram.html" target="blank">JS</a></li>
+                    </ul>
+                </li>
+                <li><a href="3" class="links">Videos</a>
+                    <ul>
+                        <!-- <li><a href="https://www.youtube.com/watch?v=s9201lcULB4&list=PLk05cwASVVZvx5vHLFBNNgOEDf2nY1c6e" target="blank">MySQL</a></li> -->
+                        <li><a href="https://www.youtube.com/watch?v=7K07ij0W6Kc&list=PLk05cwASVVZtUeZdRMutcmk57ptx4Ylo1"
+                                target="blank">HTML</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=vh32gEmGChQ&list=PLk05cwASVVZtJKa7LvwavAZT5sAmVFDXy"
+                                target="blank">CSS</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=NBurKOudIa4&list=PLk05cwASVVZtQQq8Egy5IN4Yw3ELJhNTG"
+                                target="blank">JS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about" class="links">About</a></li>
+            </ul>
+
+        </nav>
+    </h1>
+    <nav class="mysql">
+        > <b><i>What is MySQL? </i></b><br><br>
+        MySQL is an open-source relational database management system (RDBMS).Its name is
+        a combination of "My", the name of co-founder Michael Widenius's daughter My, and "SQL", the acronym for
+        Structured Query Language. A relational database organizes data into one or more data tables in which data may
+        be related to each other; these relations help structure the data. SQL is a language programmers use to create,
+        modify and extract data from the relational database, as well as control user access to the database. In
+        addition to relational databases and SQL, an RDBMS like MySQL works with an operating system to implement a
+        relational database in a computer's storage system, manages users, allows for network access and facilitates
+        testing database integrity and creation of backups.<br><br>
+        > <b><i>History of MySQL :</i></b> <br><br>
+        MySQL is an open-source relational database management system (RDBMS).Its name is
+        a combination of "My", the name of co-founder Michael Widenius's daughter My, and "SQL", the acronym for
+        Structured Query Language. A relational database organizes data into one or more data tables in which data may
+        be related to each other; these relations help structure the data. SQL is a language programmers use to create,
+        modify and extract data from the relational database, as well as control user access to the database. In
+        addition to relational databases and SQL, an RDBMS like MySQL works with an operating system to implement a
+        relational database in a computer's storage system, manages users, allows for network access and facilitates
+        testing database integrity and creation of backups.<br><br>
+        > <b>Using Conditions in Table ( Where Clause ) </b><br><br>
+        In SQL we have numbers of clauses<b>(conditions)</b>. Where clause is used when we want to extract or check the
+        particulat conditions which matches the rows, where can be used with select command , delete command, update
+        command.
+        <br><br><br>
+        <details><summary><b><i>> Different Types of Operators :</i> </b><br><br></summary>
+            i : <b> Logical Operators :</b><br><br>
+        - (>) : This operator is used as less than comparison operator.<br>
+        - (<) : This operator is used as greater than comparison operator.<br>
+            - (>=) : This operator is used as less than equals comparison operator.<br>
+            - (<=) : This operator is used as greater than comparison operator.<br>
+                - (<>) : This operator is used as not equals comparison operator.<br>
+                    - (=) : This operator is used as equals comparison operator.<br>
+                    <br><br>
+                    ii :  <b>Comparison Operator : </b><br><br>
+                    - <b>AND </b>: This operator is used as word in language, which means compare the multiple values.
+                    <br>
+                    - <b>OR </b>: This operator is used as same as word in language which compare the two values. <br>
+                    - <b>NOT </b>: This operator is used to compare to values if it's not equal to each other. <br>
+                    <br><br>
+                    iii : <b>MySQL Operators : </b><br><br>
+                    - <b>IN</b> : Used when we compare multiple values from column. <br>
+                    - <b>BETWEEN</b> : Used to compare between the particular range. <br>
+                    - <b>IS</b> : Used when we compare the null values. <br></details>
+                    <br><br>
+                    > <b><i>Pattern Matching Operator </i></b>:<b>LIKE</b><br><br>
+
+                    - LIKE operator is used when we want to compare pattern of string, characters.<br><br>
+                    - The pattern matching using two Operators with like operator : <br><br>
+
+                    i. ( _ ) : Underscore is used to mathces only a single character.<br><br>
+                    ii. ( % ) : Percentage is used to mathces the multiple charaters. <BR><br>
+
+                    > <b><i>SQL Constraints : </i></b><br><br>
+                    - Constraints are used to limit the type of data that can go into a table. This ensures the accuracy
+                    and reliability of the data in the table. If there is any violation between the constraint and the
+                    data action, the action is aborted.
+                    <br>
+                    <br>
+                    - Constraints can be column level or table level. Column level constraints apply to a column, and
+                    table level constraints apply to the whole table.<br><br>
+
+                    <details>
+                        <summary><i><b>> The following constraints are commonly used in SQL:</b></i></summary><br><br>
+
+                        - <b>NOT NULL</b> - Ensures that a column cannot have a NULL value.<br>
+                        - <b>UNIQUE </b>- Ensures that all values in a column are different.<br>
+                        - <b>PRIMARY KEY </b>- A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a
+                        table.<br>
+                        - <b>FOREIGN KEY</b> - Prevents actions that would destroy links between tables.<br>
+                        - <b>CHECK </b>- Ensures that the values in a column satisfies a specific condition.<br>
+                        - <b>DEFAULT </b>- Sets a default value for a column if no value is specified.<br>
+                        - <b>CREATE INDEX</b> - Used to create and retrieve data from the database very quickly.
+                    </details><br><br>
+                    <details>
+                        <summary><b><i>> Pratical Questions of MySQL :</i> </b></summary><br>
+                        <a href="my1.html"> 1. How to show all databases in sql ? </a><br><br>
+                        <a href="my2.html"> 2. How can we use the database ? </a><br><br>
+                        <a href="my3.html"> 3. How can we describe the database ? </a><br><br>
+                        <a href="my4.html"> 4. How we can extract or select data from the table? </a><br><br>
+                        <a href="my5.html"> 5. How can we create a new database? </a><br><br>
+                        <a href="my5.html"> 6. How we can insert multiple rows? </a><br><br>
+                        <a href="my7.html"> 7. How we can delete the data of the table ? </a><br><br>
+                        <a href="my8.html"> 8. How we can update the data of the table ? </a><br><br>
+                        <a href="my9.html"> 9. Show all the records of the student whose name start with 'A' ?
+                        </a><br><br>
+                        <a href="my10.html"> 10. Find the record whose name is atleast 4 character ? </a><br><br>
+                        <a href="my11.html"> 11. Using different types of conditions in table : ( Where Clause )
+                        </a><br><br>
+                        <a href="my12.html"> 12. Using where clause with pattern matching operator :
+                        </a><br><br>
+                        <a href="my13.html"> 13. How we can sort the data either in ascending or in descending ?
+                        </a><br><br>
+                        <a href="my14.html"> 14. How we can use group function in sql ?
+                        </a><br><br>
+                        <a href="my15.html"> 15. How to implement Primary Key, Foreign Key and Multiple Key ?
+                        </a><br><br>
+                    </details>
+    </nav>
