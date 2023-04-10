@@ -1,0 +1,310 @@
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLSQL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<link rel="stylesheet" href="project1.css">
+
+<body>
+    <h1>HumbleCoder.
+
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html"><i class="fa fa-home"></i></a></li>
+                <li>
+                    <a href="#" class="links">Tutorials
+
+                    </a>
+                    <ul>
+                        <!-- <li><a href="javascriptprogram.html" target="blank">MySQL</a></li> -->
+                        <li><a href="mysql.html" target="blank">MySQL</a></li>
+                        <li><a href="HTML_INTRO.html" target="blank">HTML</a></li>
+                        <li><a href="CSS_Program.html" target="blank">CSS</a></li>
+                        <li><a href="javascriptprogram.html" target="blank">JS</a></li>
+                    </ul>
+                </li>
+                <li><a href="3" class="links">Videos</a>
+                    <ul>
+                        <!-- <li><a href="https://www.youtube.com/watch?v=s9201lcULB4&list=PLk05cwASVVZvx5vHLFBNNgOEDf2nY1c6e" target="blank">MySQL</a></li> -->
+                        <li><a href="https://www.youtube.com/watch?v=s9201lcULB4&list=PLk05cwASVVZvx5vHLFBNNgOEDf2nY1c6e"
+                                target="blank">MySQL</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=7K07ij0W6Kc&list=PLk05cwASVVZtUeZdRMutcmk57ptx4Ylo1"
+                                target="blank">HTML</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=vh32gEmGChQ&list=PLk05cwASVVZtJKa7LvwavAZT5sAmVFDXy"
+                                target="blank">CSS</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=NBurKOudIa4&list=PLk05cwASVVZtQQq8Egy5IN4Yw3ELJhNTG"
+                                target="blank">JS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about" class="links">About</a></li>
+            </ul>
+
+        </nav>
+    </h1>
+    <nav class="mysql">
+        ▪️ <b><i>WHAT IS PLSQL? </i></b><br><br>
+        PL/SQL is a block structured language that enables developers to combine the power of SQL with procedural
+        statements.All the statements of a block are passed to oracle engine all at once which increases processing
+        speed and decreases the traffic.<br><br>
+        ▪️ <b><i>BASICS of PL/SQL :</i></b><br>
+        PL/SQL stands for Procedural Language extensions to the Structured Query Language (SQL).
+        PL/SQL is a combination of SQL along with the procedural features of programming languages.
+        Oracle uses a PL/SQL engine to processes the PL/SQL statements.
+        PL/SQL includes procedural language elements like conditions and loops. It allows declaration of constants and
+        variables, procedures and functions, types and variable of those types and triggers.<br><br>
+
+        ▪️ <b><i>HISTORY of PLSQL :</i></b> <br><br>
+        PL/SQL is Oracle's Procedural Language extension to SQL. It is loosely based on Ada (a variant of Pascal
+        developed for the US Dept of Defense). PL/SQL was first released in 1992 as an optional extension to Oracle 6.
+
+        PL/SQL is now a technology present in most Oracle servers and products.<br><br>
+        PL/SQL Version: 1.0–1991 — Database Version: Oracle 6<br>
+        PL/SQL Version: 2.0- 199x — Database Version: Oracle 7<br>
+        PL/SQL Version: 2.1–1991 — Database Version: Oracle 7.1<br>
+        PL/SQL Version: 2.2–199x — Database Version: Oracle 7.2<br>
+        PL/SQL Version: 2.3–199x — Database Version: Oracle 7.3<br>
+        PL/SQL Version: 8.0–1999 — Database Version: Oracle 8<br>
+        PL/SQL Version: 8.1 — Year 2000 — Database Version: Oracle 8i<br>
+        PL/SQL Version: 9.0 — Year 2001 — Database Version: Oracle 9i<br>
+        PL/SQL Version: 10.0 — Year 2004 — Database Version: Oracle 10g<br>
+        <br><br>
+        ▪️ <b><i>FEATURES of PL/SQL : </i></b><br><br>
+
+        ▪️ PL/SQL is basically a procedural language, which provides the functionality of decision making, iteration and
+        many more features of procedural programming languages.<br>
+        ▪️ PL/SQL can execute a number of queries in one block using single command.<br>
+        ▪️ One can create a PL/SQL unit such as procedures, functions, packages, triggers, and types, which are stored
+        in
+        the database for reuse by applications.<br>
+        ▪️ PL/SQL provides a feature to handle the exception which occurs in PL/SQL block known as exception handling
+        block.<br>
+        ▪️ Applications written in PL/SQL are portable to computer hardware or operating system where Oracle is
+        operational.<br>
+        ▪️ PL/SQL Offers extensive error checking.<br><br>
+
+        ▪️ <b><i>STRUCTURE BLOCK OF PLSQL : </i></b><br><br>
+
+        PL/SQL extends SQL by adding constructs found in procedural languages, resulting in a structural language that
+        is more powerful than SQL. The basic unit in PL/SQL is a block. All PL/SQL programs are made up of blocks, which
+        can be nested within each other.<br><br>
+
+        ▪️ Declare section starts with DECLARE keyword in which variables, constants, records as cursors can be declared
+        which stores data temporarily. It basically consists definition of PL/SQL identifiers. This part of the code is
+        optional.<br><br>
+        ▪️ Execution section starts with BEGIN and ends with END keyword.This is a mandatory section and here the
+        program
+        logic is written to perform any task like loops and conditional statements. It supports all DML commands, DDL
+        commands and SQL*PLUS built-in functions as well.<br><br>
+        ▪️ Exception section starts with EXCEPTION keyword.This section is optional which contains statements that are
+        executed when a run-time error occurs. Any exceptions can be handled in this section.<br><br>
+
+        ▪️ <b><i>PLSQL IDENTIFIERS : </i></b><br><br>
+        PL/SQL identifiers are constants, variables, exceptions, procedures, cursors, and reserved words. The
+        identifiers consist of a letter optionally followed by more letters, numerals, dollar signs, underscores, and
+        number signs and should not exceed 30 characters. <br><br>
+
+        By default, identifiers are not case-sensitive. So you can use integer or INTEGER to represent a numeric value.
+        You cannot use a reserved keyword as an identifier. <br><br>
+
+        <table border="1px" padding="5px">
+            <tbody>
+                <tr>
+                    <th
+                        style="text-align:center;padding:10px;font-size: x-large; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+                        Delimiter</th>
+                    <th
+                        style="text-align:center;padding:10px;font-size: x-large; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+                        Description</th>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>+, -, *, /</b></td>
+                    <td>Addition, subtraction/negation, multiplication, division</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>%</b></td>
+                    <td>Attribute indicator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>'</b></td>
+                    <td>Character string delimiter</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>.</b></td>
+                    <td>Component selector</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>(,)</b></td>
+                    <td>Expression or list delimiter</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>:</b></td>
+                    <td>Host variable indicator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>,</b></td>
+                    <td>Item separator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>"</b></td>
+                    <td>Quoted identifier delimiter</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>=</b></td>
+                    <td>Relational operator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>@</b></td>
+                    <td>Remote access indicator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>;</b></td>
+                    <td>Statement terminator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>:=</b></td>
+                    <td>Assignment operator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>=&gt;</b></td>
+                    <td>Association operator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>||</b></td>
+                    <td>Concatenation operator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>**</b></td>
+                    <td>Exponentiation operator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>&lt;&lt;, &gt;&gt;</b></td>
+                    <td>Label delimiter (begin and end)</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>/*, */</b></td>
+                    <td>Multi-line comment delimiter (begin and end)</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>--</b></td>
+                    <td>Single-line comment indicator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>..</b></td>
+                    <td>Range operator</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>&lt;, &gt;, &lt;=, &gt;=</b></td>
+                    <td>Relational operators</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;padding:10px;font-size:large"><b>&lt;&gt;, '=, ~=, ^=</b></td>
+                    <td>Different versions of NOT EQUAL</td>
+                </tr>
+            </tbody>
+        </table> <br><br>
+        ▪️ <b><i>PL/SQL PROGRAM UNITS : </i></b><br><br>
+        A PL/SQL unit is any one of the following − <br><br>
+
+        ▪️ PL/SQL block <br>
+        ▪️ Function <br>
+        ▪️ Package <br>
+        ▪️ Package body <br>
+        ▪️ Procedure <br>
+        ▪️ Trigger <br>
+        ▪️ Type <br>
+        ▪️ Type body <br><br>
+
+        ▪️ <b><i>PL/SQL CHARACTER DATA TYPES : </i></b><br><br>
+        Following is the detail of PL/SQL pre-defined character data types and their sub-types − <br>
+        ▪️ <i>CHAR : </i><br>
+
+        Fixed-length character string with maximum size of 32,767 bytes <br><br>
+        ▪️ <i>VARCHAR2 : </i><br>
+
+        Variable-length character string with maximum size of 32,767 bytes <br><br>
+        ▪️ <i>RAW : </i><br>
+
+        Variable-length binary or byte string with maximum size of 32,767 bytes, not interpreted by PL/SQL <br><br>
+        ▪️ <i>NCHAR : </i><br>
+
+        Fixed-length national character string with maximum size of 32,767 bytes <br><br>
+        ▪️ <i>NVARCHAR2 : </i><br>
+
+        Variable-length national character string with maximum size of 32,767 bytes <br><br>
+        ▪️ <i>LONG : </i><br>
+
+        Variable-length character string with maximum size of 32,760 bytes <br><br>
+        <b><i> ▪️ VARIABLE DECLARATION in PL/SQL : </i></b><br><br>
+        PL/SQL variables must be declared in the declaration section or in a package as a global variable. When you
+        declare a variable, PL/SQL allocates memory for the variable's value and the storage location is identified by
+        the variable name. <br><br>
+
+        ▪️ The syntax for declaring a variable is − <br><br>
+
+        <b>variable_name [CONSTANT] datatype [NOT NULL] [:= | DEFAULT initial_value]</b>
+
+        <br><br>
+        <b><i> ▪️ CONDITIONS in PL/SQL : </i></b><br><br>
+        ▪️ The <i>IF statement</i> associates a condition with a sequence of statements enclosed by the keywords THEN
+        and END
+        IF. If the condition is true, the statements get executed and if the condition is false or NULL then the IF
+        statement does nothing. <br><br>
+        ▪️ <i>IF statement </i> adds the keyword <i>ELSE</i> followed by an alternative sequence of statement. If the
+        condition is
+        false or NULL, then only the alternative sequence of statements get executed. It ensures that either of the
+        sequence of statements is executed. <br><br>
+        ▪️ <i>Nested IF-ELSE Statements </i>You can use one IF-THEN or IF-THEN-ELSIF statement inside another IF-THEN
+        or IF-THEN-ELSIF statement(s). <br><br>
+
+
+        <b><i> ▪️ LOOPS in PL/SQL : </i></b><br><br>
+        ▪️ In this loop structure, sequence of statements is enclosed between the <i>LOOP</i> and the <i>END LOOP</i>
+        statements. At
+        each iteration, the sequence of statements is executed and then control resumes at the top of the loop.<br><br>
+        ▪️ <i>WHILE LOOP</i> Repeats a statement or group of statements while a given condition is true. It tests the
+        condition before executing the loop body.<br><br>
+        ▪️ <i>FOR LOOP</i>Execute a sequence of statements multiple times and abbreviates the code that manages the loop
+        variable.<br><br>
+
+        <b><i> ▪️ CURSORS in PL/SQL : </i></b><br><br>
+        A cursor is a pointer to this context area. PL/SQL controls the context area through a cursor. A cursor holds
+        the rows (one or more) returned by a SQL statement. The set of rows the cursor holds is referred to as the
+        active set. <br><br>
+        > Cursors are of two types : <br>
+        > <i>Implicit Cursor</i> <br>
+        > <i>Explicit Cursor</i> <br><br>
+
+        <b><i> ~ Implicit Cursor : </i></b><br>
+        Implicit cursors are automatically created by Oracle whenever an SQL statement is executed, when there is no
+        explicit cursor for the statement. Programmers cannot control the implicit cursors and the information in it.
+        <br><br>
+        <b><i> ~ Explicit Cursor : </i></b><br>
+        Explicit cursors are programmer-defined cursors for gaining more control over the context area. An explicit
+        cursor should be defined in the declaration section of the PL/SQL Block. It is created on a SELECT Statement
+        which returns more than one row. <br><br>
+
+        ▪️<b><i>EXCEPTIONS HANDLING IN PL/SQL : </i></b><br>
+        > PL/SQL supports programmers to catch such conditions using EXCEPTION block in the program and an appropriate
+        action is taken against the error condition. <br><br>
+        There are two types of exceptions − <br><br>
+
+        <i>~ SYSTEM-DEFINED EXCEPTIONS</i> <br>
+        <i>~ USER-DEFINED EXCEPTIONS</i> <br><br>
+
+        ▪️<b><i>TRIGGERS IN PL/SQL : </i></b><br>
+        > Triggers are stored programs, which are automatically executed or fired when some events occur.Triggers can
+        be defined on the table, view, schema, or database with which the event is associated.<br><br>
+
+        ~ <i>A database manipulation (DML) statement (DELETE, INSERT, or UPDATE)</i><br>
+
+        ~ <i>A database definition (DDL) statement (CREATE, ALTER, or DROP).</i><br>
+
+        ~ <i>A database operation (SERVERERROR, LOGON, LOGOFF, STARTUP, or SHUTDOWN).</i><br>
+
+
+    </nav>
